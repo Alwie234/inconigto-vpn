@@ -5,18 +5,19 @@ minify = true
 workers_dev = true
 
 routes = [
-  { pattern = "inconigto-mode.web.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.inconigto-mode.web.id", custom_domain = true },
-  { pattern = "df.game.naver.com.inconigto-mode.web.id", custom_domain = true },
-  { pattern = "graph.instagram.com.inconigto-mode.web.id", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.inconigto-mode.web.id", custom_domain = true },
-  { pattern = "support.zoom.us.inconigto-mode.web.id", custom_domain = true },  
-  { pattern = "cache.netflix.com.inconigto-mode.web.id", custom_domain = true },
+  { pattern = "mosyaf.web.id", custom_domain = true },
+  { pattern = "quiz.vidio.com.mosyaf.web.id", custom_domain = true },
+  { pattern = "quiz.int.vidio.com.mosyaf.web.id", custom_domain = true },
+  { pattern = "bimbel.ruangguru.com.mosyaf.web.id", custom_domain = true },
+  { pattern = "api.midtrans.com.mosyaf.web.id", custom_domain = true },
+  { pattern = "support.zoom.us.mosyaf.web.id", custom_domain = true }, 
+  { pattern = "bakrie.ac.id.mosyaf.web.id", custom_domain = true }, 
+  { pattern = "space.byu.id.mosyaf.web.id", custom_domain = true },
 ]
 
 [[kv_namespaces]]
 binding = "SIREN"
-id = "f7a1c12a83d349bb8e8868e7d524ac4c"
+id = "71a1f9966a3643d89906ee5462adacea"
 [build]
 command = "cargo install -q worker-build && worker-build --release"
 
