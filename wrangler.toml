@@ -5,14 +5,14 @@ minify = true
 workers_dev = true
 
 routes = [
-  { pattern = "mosyaf.web.id", custom_domain = true },
-  { pattern = "quiz.vidio.com.mosyaf.web.id", custom_domain = true },
-  { pattern = "quiz.int.vidio.com.mosyaf.web.id", custom_domain = true },
-  { pattern = "bimbel.ruangguru.com.mosyaf.web.id", custom_domain = true },
-  { pattern = "api.midtrans.com.mosyaf.web.id", custom_domain = true },
-  { pattern = "support.zoom.us.mosyaf.web.id", custom_domain = true }, 
-  { pattern = "bakrie.ac.id.mosyaf.web.id", custom_domain = true }, 
-  { pattern = "space.byu.id.mosyaf.web.id", custom_domain = true },
+  { pattern = "siren.mosyaf.web.id", custom_domain = true },
+  { pattern = "quiz.vidio.com.siren.mosyaf.web.id", custom_domain = true },
+  { pattern = "quiz.int.vidio.com.siren.mosyaf.web.id", custom_domain = true },
+  { pattern = "bimbel.ruangguru.com.siren.mosyaf.web.id", custom_domain = true },
+  { pattern = "api.midtrans.com.siren.mosyaf.web.id", custom_domain = true },
+  { pattern = "support.zoom.us.siren.mosyaf.web.id", custom_domain = true }, 
+  { pattern = "bakrie.ac.id.siren.mosyaf.web.id", custom_domain = true }, 
+  { pattern = "space.byu.id.siren.mosyaf.web.id", custom_domain = true },
 ]
 
 [[kv_namespaces]]
